@@ -1,0 +1,31 @@
+{
+    "items": {
+        "slot1": {
+            "Item": "Steel bar",
+            "Id": 2353,
+            "Amount": 737,
+            "Price": 452,
+            "Current price": 452,
+            "Change": -3.982300884955752
+        },
+        "slot2": {
+            "Item": "Plain pizza",
+            "Id": 2289,
+            "Amount": 632,
+            "Price": 527,
+            "Current price": 527,
+            "Change": -4.364326375711575
+        },
+        "slot3": {
+            "Item": "Cosmic rune",
+            "Id": 564,
+            "Amount": 2688,
+            "Price": 124,
+            "Current price": 124,
+            "Change": -5.64516129032258
+        },
+        "gp": 500,
+        "portfolio": 1098929,
+        "net": 1099429
+    }
+}

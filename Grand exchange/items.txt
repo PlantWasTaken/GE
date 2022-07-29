@@ -1,0 +1,38 @@
+anch pizza
+sworfish
+raw swordfish
+raw lobster
+lobster
+rune scimitar
+rune 2h sword
+rune axe
+rune battleaxe
+rune warhammer
+staff of fire
+rune fullhelm
+rune platebody
+rune kitesheild
+rune platelegs
+rune plateskirt
+green d'hide body
+green d'hide chaps
+green d'hide vambraces
+maple shortbow
+longbow
+maple longbow
+strenght potion(4)
+big bones
+maple logs
+oak logs
+willow logs
+logs
+gold bar
+steel bar
+mithril bar
+runite bar
+adamant bar
+gold ore
+iron ore
+adamant ore
+mithril ore
+plank

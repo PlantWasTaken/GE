@@ -1,0 +1,12 @@
+dict = 
+{
+    "Item" : "Swordfish",
+	"Item id" : "373",
+	"Amount" : "100",
+	"Price" : "300",
+	"Date" : "06.02.2007"
+}
+
+111
+222
+333

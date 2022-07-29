@@ -1,0 +1,102 @@
++------------------------+---------+-------+--------+----------+
+|          Name          | Item id | Price | Change |  Trend   |
++------------------------+---------+-------+--------+----------+
+|      Plain pizza       |   2289  |  527  | -4.36  | negative |
+|     Anchovy pizza      |   2297  |  595  |   0    | neutral  |
+|     Raw swordfish      |   371   |  267  | -0.37  | negative |
+|       Swordfish        |   373   |  317  |   0    | neutral  |
+|      Lobster pot       |   301   |  146  |   0    | neutral  |
+|        Lobster         |   379   |  201  |   0    | neutral  |
+|       Water rune       |   555   |   5   |   0    | neutral  |
+|        Air rune        |   556   |   5   | -20.0  | negative |
+|       Death rune       |   560   |  184  |   0    | neutral  |
+|      Nature rune       |   561   |  180  |  0.56  | positive |
+|        Law rune        |   563   |  137  | -0.73  | negative |
+|      Cosmic rune       |   564   |  124  | -5.65  | negative |
+|     Rune platelegs     |   1079  | 37.8k |  0.05  | positive |
+|    Rune plateskirt     |   1093  | 37.9k |  -0.1  | negative |
+|     Rune chainbody     |   1113  | 29.5k |  0.03  | positive |
+|     Rune platebody     |   1127  | 38.5k | -0.01  | negative |
+|     Rune med helm      |   1147  | 11.1k |  0.13  | positive |
+|     Rune full helm     |   1163  | 20.6k |  0.05  | positive |
+|     Rune sq shield     |   1185  | 22.6k |  0.19  | positive |
+|    Rune kiteshield     |   1201  | 32.0k | -0.03  | negative |
+|      Rune pickaxe      |   1275  | 18.7k | -0.07  | negative |
+|       Rune sword       |   1289  | 12.0k | -0.03  | negative |
+|     Rune longsword     |   1303  | 18.7k | -0.01  | negative |
+|     Rune 2h sword      |   1319  | 37.8k | -0.17  | negative |
+|     Rune scimitar      |   1333  | 15.1k |  0.01  | positive |
+|     Rune warhammer     |   1347  | 24.3k | -0.68  | negative |
+|        Rune axe        |   1359  | 7,232 |  0.55  | positive |
+|     Rune battleaxe     |   1373  | 24.5k |  0.11  | positive |
+| Green d'hide vambraces |   1065  | 1,277 | -1.64  | negative |
+|   Green d'hide chaps   |   1099  | 2,058 |  1.21  | positive |
+|   Green d'hide body    |   1135  | 4,244 |  0.16  | positive |
+|        Longbow         |   839   |   45  |  6.67  | positive |
+|     Maple longbow      |   851   |  281  |  0.71  | positive |
+|     Maple shortbow     |   853   |  185  |  2.7   | positive |
+|   Strength potion(4)   |   113   |  317  |  1.26  | positive |
+|   Amulet of strength   |   1725  | 1,289 | -0.93  | negative |
+|         Bones          |   526   |   69  |  2.9   | positive |
+|       Big bones        |   532   |  211  | -1.42  | negative |
+|          Logs          |   1511  |   53  | -1.89  | negative |
+|      Willow logs       |   1519  |   30  |   0    | neutral  |
+|          Logs          |   1511  |   53  | -1.89  | negative |
+|       Steel bar        |   2353  |  452  | -3.98  | negative |
+|        Gold bar        |   2357  |   90  |   0    | neutral  |
+|     Adamantite bar     |   2361  | 2,019 |  0.84  | positive |
+|       Runite bar       |   2363  | 12.5k |  0.04  | positive |
+|        Iron ore        |   440   |  130  |  1.54  | positive |
+|     Rune arrowtips     |    44   |  256  | -2.73  | negative |
+|      Mithril ore       |   447   |  127  |  1.57  | positive |
+|       Runite ore       |   451   | 11.1k |  0.04  | positive |
+|      Plain pizza       |   2289  |  527  | -4.36  | negative |
+|     Anchovy pizza      |   2297  |  595  |   0    | neutral  |
+|     Raw swordfish      |   371   |  267  | -0.37  | negative |
+|       Swordfish        |   373   |  317  |   0    | neutral  |
+|      Lobster pot       |   301   |  146  |   0    | neutral  |
+|        Lobster         |   379   |  201  |   0    | neutral  |
+|       Water rune       |   555   |   5   |   0    | neutral  |
+|        Air rune        |   556   |   5   | -20.0  | negative |
+|       Death rune       |   560   |  184  |   0    | neutral  |
+|      Nature rune       |   561   |  180  |  0.56  | positive |
+|        Law rune        |   563   |  137  | -0.73  | negative |
+|      Cosmic rune       |   564   |  124  | -5.65  | negative |
+|     Rune platelegs     |   1079  | 37.8k |  0.05  | positive |
+|    Rune plateskirt     |   1093  | 37.9k |  -0.1  | negative |
+|     Rune chainbody     |   1113  | 29.5k |  0.03  | positive |
+|     Rune platebody     |   1127  | 38.5k | -0.01  | negative |
+|     Rune med helm      |   1147  | 11.1k |  0.13  | positive |
+|     Rune full helm     |   1163  | 20.6k |  0.05  | positive |
+|     Rune sq shield     |   1185  | 22.6k |  0.19  | positive |
+|    Rune kiteshield     |   1201  | 32.0k | -0.03  | negative |
+|      Rune pickaxe      |   1275  | 18.7k | -0.07  | negative |
+|       Rune sword       |   1289  | 12.0k | -0.03  | negative |
+|     Rune longsword     |   1303  | 18.7k | -0.01  | negative |
+|     Rune 2h sword      |   1319  | 37.8k | -0.17  | negative |
+|     Rune scimitar      |   1333  | 15.1k |  0.01  | positive |
+|     Rune warhammer     |   1347  | 24.3k | -0.68  | negative |
+|        Rune axe        |   1359  | 7,232 |  0.55  | positive |
+|     Rune battleaxe     |   1373  | 24.5k |  0.11  | positive |
+| Green d'hide vambraces |   1065  | 1,277 | -1.64  | negative |
+|   Green d'hide chaps   |   1099  | 2,058 |  1.21  | positive |
+|   Green d'hide body    |   1135  | 4,244 |  0.16  | positive |
+|        Longbow         |   839   |   45  |  6.67  | positive |
+|     Maple longbow      |   851   |  281  |  0.71  | positive |
+|     Maple shortbow     |   853   |  185  |  2.7   | positive |
+|   Strength potion(4)   |   113   |  317  |  1.26  | positive |
+|   Amulet of strength   |   1725  | 1,289 | -0.93  | negative |
+|         Bones          |   526   |   69  |  2.9   | positive |
+|       Big bones        |   532   |  211  | -1.42  | negative |
+|          Logs          |   1511  |   53  | -1.89  | negative |
+|      Willow logs       |   1519  |   30  |   0    | neutral  |
+|          Logs          |   1511  |   53  | -1.89  | negative |
+|       Steel bar        |   2353  |  452  | -3.98  | negative |
+|        Gold bar        |   2357  |   90  |   0    | neutral  |
+|     Adamantite bar     |   2361  | 2,019 |  0.84  | positive |
+|       Runite bar       |   2363  | 12.5k |  0.04  | positive |
+|        Iron ore        |   440   |  130  |  1.54  | positive |
+|     Rune arrowtips     |    44   |  256  | -2.73  | negative |
+|      Mithril ore       |   447   |  127  |  1.57  | positive |
+|       Runite ore       |   451   | 11.1k |  0.04  | positive |
++------------------------+---------+-------+--------+----------+
