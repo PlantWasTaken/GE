@@ -3,14 +3,15 @@ import json
 import linecache
 import time as t
 import sys, os
+import datetime
 from operator import itemgetter
 
 
 sys.setrecursionlimit(10000)
 
 index = open("index.txt", "r")
-prices = open("prices.txt", "w")
 bankmanagment = open("bank.json", "r")
+log = open("log.txt", "r+")
 
 data = ''
 line_count = 0
@@ -91,6 +92,9 @@ def sell_items():
                     json_data_sell['items']['gp'] = ((json_data_sell['items']['gp'] + (json_data_sell['items']['slot' + str(i+1)]['Current price'])-int(json_data_sell['items']['slot' + str(i+1)]['Current price']*0.01))*json_data_sell['items']['slot' + str(i+1)]['Amount'])
                     json_data_sell['items']['slot' + str(i+1)]['Amount'] = 0 #changes amount after item has been sold
                     json_data_sell['items']['portfolio'] = (json_data_sell['items']['portfolio'])+(json_data_sell['items']['slot' + str(i+1)]['Price'])*(json_data_sell['items']['slot' + str(i+1)]['Amount']) #sets portfolio
+
+                    now = datetime.datetime.now() #writing to log file
+                    log.write("Sold at : " + str(now.strftime("%Y-%m-%d %H:%M:%S" + "\n")))
                 
                 else:
                     #print("NO0", i)
@@ -140,6 +144,9 @@ def buy_items(): #writes to json file
             for i in range(len(items_to_buy)):
                 json_data_buy['items']['portfolio'] = (json_data_buy['items']['portfolio'])+(json_data_buy['items']['slot' + str(i+1)]['Price'])*(json_data_buy['items']['slot' + str(i+1)]['Amount'])
                 json_data_buy['items']['gp'] = (json_data_buy['items']['gp'])-((json_data_buy['items']['slot' + str(items_to_buy[i]+1)]['Price'])*(json_data_buy['items']['slot' + str(items_to_buy[i]+1)]['Amount']))
+
+                now = datetime.datetime.now() #writing to log file
+                log.write("Bought at : " + str(now.strftime("%Y-%m-%d %H:%M:%S") + "\n"))
                     
 
                 
@@ -219,7 +226,7 @@ def findItemPrice(): #finds all item prices from index.txt
                 i = i + 1
     index.close()
 
-for i in range(100):
+for i in range(2):
     print("Safe to close!")
     findItemPrice()
     os.system('clear')      
